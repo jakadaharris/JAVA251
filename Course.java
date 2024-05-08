@@ -1,8 +1,3 @@
-/* 
-Create the Course class. The Course class is an aggregate class because it contains a TextBook object. 
-The course "has a" textbook; creating a "has a" relationship. Once the class is created, we can use the class to create 
-objects in the demo program.*/
-
 public class Course
 //open the class
 {
@@ -161,12 +156,12 @@ public class Course
       return getTuitionCost() + textbook.getPrice();
    }
    
-   /**
+   /*
       toString method
       @return - A string containing the course information
   */ 
       
-  /** We make use of the String.format method to format the tuition cost and total cost. See Chapter 3 for information about this method.*/
+  /* We make use of the String.format method to format the tuition cost and total cost. See Chapter 3 for information about this method.*/
    
    public String toString()
    {
